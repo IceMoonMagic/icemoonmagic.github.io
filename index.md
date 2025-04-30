@@ -3,23 +3,24 @@
 layout: home
 
 hero:
-  # prettier-ignore
   name: IceMoonMagic
   text: My Personal Site
-  # tagline: My great project tagline | {{ my_variables.foo }}
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /about/markdown-examples
+      text: My Projects
+      link: /projects/
     - theme: alt
-      text: API Examples
-      link: /about/api-examples
+      text: About Me
+      link: /about/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Featured | Satisfactory Splitter Calculator
+    details: Calculate how to split belts evenly across machines or into specific ratios.
+    link: /projects/satisfactory-splitter-calculator
+  - title: Featured | Discord Bot
+    details: A simple bot with some quality of life tools for Discord.
+    link: /projects/discord-bot
+  - title: Featured | Maze Game
+    details: A simple but customizable game about solving procedurally generated mazes.
+    link: https://icemoonmagic.itch.io/maze-game
 ---
